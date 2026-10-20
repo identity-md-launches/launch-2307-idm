@@ -1,0 +1,20 @@
+{
+  "kind": "custom_token",
+  "token": {
+    "contract": "IDMToken",
+    "name": "idm",
+    "symbol": "IDM",
+    "decimals": 18,
+    "constructorArgs": [],
+    "totalSupply": "1000000000000000000000000000"
+  },
+  "contracts": [],
+  "pool": {
+    "pairedCurrency": "0x5f7bb59365ce557c26dbcaa4ee9d39a4b95b7127",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "economics": {"poolBps":5000,"initialMarketCapWei":"2500000000000000000000","remainderTo":"0xee2aaa315cf7ed169f93148d30d24af9318dbb66"},
+  "notes": "idm-16; project reference: x.com/theidmfun. IDMToken mints 1,000,000,000 idm (IDM) with 18 decimals once to msg.sender in its constructor. It supports ERC-2612 permit and has no owner, transfer tax, or post-deployment minting."
+}
